@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9963DA"
+    tools:context=".Activity_Item">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="72dp"
+        app:srcCompat="@drawable/abbey_martini"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="268dp"
+        android:layout_height="438dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="23dp"
+        android:text="How to make: Shake all ingredients with ice and fine strain into chilled glass.
+Ingredients:
+2 shot Rutte Dry gin
+1 shot Martini Rosso sweet vermouth
+1 shot Orange juice (freshly squeezed)
+3 dash Angostura Aromatic Bitters"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
